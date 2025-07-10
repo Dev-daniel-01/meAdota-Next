@@ -1,0 +1,149 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_pataNav__8YdJG{
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg) ;
+}
+
+.page_s1__0rN3c{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-image: url(/_next/static/media/fundo-next.ceef19cf.png);
+     background-size: cover;
+    background-position: center;
+}
+
+.page_s2__FLnql{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-image: url(/_next/static/media/fundo-next.ceef19cf.png);
+     background-size: cover;
+  background-position: center;
+}
+
+.page_s3__ITfTX{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+    background-image: url(/_next/static/media/fundo-next.ceef19cf.png);
+     background-size: cover;
+  background-position: center;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menu.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.menu_navBar__hbtHq {
+  width: 100vw;
+  height: 70px;
+  background-color: #6C087C;
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+.menu_navMenu__y09n5 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem; 
+
+  margin: 0;
+ font-size: 24px;
+}
+
+.menu_navMenu__y09n5 p{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.menu_navLi__H_4zP {
+  width: 5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center; /* garante que o conteúdo dentro fique centralizado */
+}
+
+.menu_navLink__E2GHd{
+  opacity: 0.8; 
+}
+
+.menu_navLink__E2GHd:hover{
+  opacity: 1.6;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/cards.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.cards_cardsContainer__IcGRg {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 90vh;
+  height: auto;
+  padding-top: 5%;
+  gap: 9%;
+  flex-wrap: wrap;
+
+}
+
+.cards_cardsWrap__q17qK {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  margin-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_cardsIcons__rF3A8 {
+   
+  width: 95px;
+  height: 95px;
+}
+
+.cards_cardsText__52xON {
+  width: 15rem;
+  height: auto;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/slider.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.slider_slider__8GAJ6 {
+  position: relative;
+  width: 100vw;
+  height: 99.9vh; /* Aumentei para combinar com o height do slide */
+  margin: 2rem auto;
+  overflow: hidden;
+  margin-top: 0px;  
+}
+
+.slider_slide__0Sxii {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%; 
+}
+
+.slider_active__raV_v {
+  display: block;
+}
+
+
+.slider_image__d2xKY {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

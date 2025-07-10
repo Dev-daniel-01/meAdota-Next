@@ -1,0 +1,56 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pets/page.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.page_voltarNav__TTSpT{
+    width: 30px;
+    height: 30px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menu.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.menu_navBar__hbtHq {
+  width: 100vw;
+  height: 70px;
+  background-color: #6C087C;
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+.menu_navMenu__y09n5 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem; 
+
+  margin: 0;
+ font-size: 24px;
+}
+
+.menu_navMenu__y09n5 p{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.menu_navLi__H_4zP {
+  width: 5rem;
+  justify-content: center;
+  display: flex;
+  align-items: center; /* garante que o conteúdo dentro fique centralizado */
+}
+
+.menu_navLink__E2GHd{
+  opacity: 0.8; 
+}
+
+.menu_navLink__E2GHd:hover{
+  opacity: 1.6;
+}
+
