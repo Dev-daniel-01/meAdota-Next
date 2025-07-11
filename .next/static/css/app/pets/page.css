@@ -1,56 +1,171 @@
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pets/page.module.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************/
-.page_voltarNav__TTSpT{
-    width: 30px;
-    height: 30px;
+.page_container__hNt6e {
+    background-image: url(/_next/static/media/fundo-next.e7ad91a5.png);
+    background-size: cover;
+    background-position: center;
 }
-/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menu.module.css ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************/
-.menu_navBar__hbtHq {
+
+.page_s1__F2GM0 {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+.page_cardsFlex__8clDv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    padding-top: 7%;
+}
+
+.page_card__Wpt_K {
+
+    background-color: #EFEFEF;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 5%;
+    border-radius: 16px;
+    border: 1px solid #BEBEBE;
+}
+
+.page_image__LVwnt {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    height: 70%;
+}
+
+.page_cardContent__Vp5Vp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 2%;
+     line-height: 0.8;
+}
+
+.page_ownerName__58Lxe {
+    color: #C36C09;
+    font-weight: 500;
+}
+
+.page_petName__AEbdD {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page_location__a0jzO {
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px){
+    
+.page_cardsFlex__8clDv {
+      padding-top: 10%;
+}
+}
+
+@media (max-width: 700px){
+    
+.page_cardsFlex__8clDv {
+      padding-top: 20%;
+}
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menu2.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.menu2_navBar__UNcJB {
   width: 100vw;
   height: 70px;
   background-color: #6C087C;
-  display: flex;
-  align-items: center; /* centraliza verticalmente */
+  position: fixed;
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 999;
-}
-
-.menu_navMenu__y09n5 {
-  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  padding: 0 2rem; 
-
-  margin: 0;
- font-size: 24px;
+  padding: 0 1.5rem;
 }
 
-.menu_navMenu__y09n5 p{
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.menu_navLi__H_4zP {
-  width: 5rem;
-  justify-content: center;
+.menu2_navSide__9uM_R {
+  width: 70px;
   display: flex;
-  align-items: center; /* garante que o conteúdo dentro fique centralizado */
+  justify-content: center;
+  align-items: center;
 }
 
-.menu_navLink__E2GHd{
-  opacity: 0.8; 
+.menu2_navLink__io1FN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
 }
 
-.menu_navLink__E2GHd:hover{
-  opacity: 1.6;
+.menu2_navLink__io1FN:hover {
+  opacity: 1;
+}
+
+
+.menu2_navCenter__s1HS9 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding-top: 1%;
+}
+
+.menu2_navCenter__s1HS9 p{
+    font-size: 1.1rem;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/footer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.footer_Footer__LJh43 {
+  width: 100vw;
+  height: 65px;
+  background-color: #6C087C;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  color: aliceblue;
+}
+
+.footer_footerSide__vfWmy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; /* ajusta o espaço entre os ícones */
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer_footerCenter__ZN_D_ {
+    padding-top: 1rem;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 30px;
+  height: auto;
 }
 

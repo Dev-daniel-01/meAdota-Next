@@ -1,0 +1,41 @@
+.Footer {
+  width: 100vw;
+  height: 65px;
+  background-color: #6C087C;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  color: aliceblue;
+}
+
+.footerSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; /* ajusta o espaço entre os ícones */
+}
+
+.footerLinkContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footerCenter {
+    padding-top: 1rem;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.1rem;
+}
+
+.iconsFooter {
+  width: 30px;
+  height: auto;
+}
