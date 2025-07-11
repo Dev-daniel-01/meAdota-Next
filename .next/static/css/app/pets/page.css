@@ -26,7 +26,7 @@
 
     background-color: #EFEFEF;
     width: 300px;
-    height: 350px;
+    height: 380px;
     margin-bottom: 5%;
     border-radius: 16px;
     border: 1px solid #BEBEBE;
@@ -74,6 +74,31 @@
     
 .page_cardsFlex__8clDv {
       padding-top: 20%;
+}
+}
+
+@media (max-width: 650px){
+    .page_card__Wpt_K {
+    width: 200px;
+    height: 300px;
+    }
+}
+
+@media (max-width: 430px){
+    .page_card__Wpt_K {
+    width: 170px;
+    height: 270px;
+}
+
+.page_cardContent__Vp5Vp {
+     line-height: 0.3;
+}
+
+.page_location__a0jzO {
+    font-size: 0.8rem;
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 700;
 }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -124,6 +149,19 @@
     font-size: 1.1rem;
 }
 
+@media (max-width: 520px) {
+.menu2_navBar__UNcJB {
+  padding: 0 0.5rem;
+}
+}
+
+@media (max-width: 400px) {
+.menu2_navBar__UNcJB {
+  padding: 0 0.2rem;
+}
+}
+
+
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/footer.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
@@ -168,4 +206,61 @@
   width: 30px;
   height: auto;
 }
+
+
+
+@media (max-width: 520px) {
+
+.footer_footerCenter__ZN_D_ {
+  font-size: 1rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 25px;
+  height: auto;
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer_logoNav__MAm17{
+  width: 50px;
+  height: auto;
+}
+}
+
+@media (max-width: 400px) {
+
+.footer_footerCenter__ZN_D_ {
+  font-size: 0.8rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 20px;
+  height: auto;
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer_logoNav__MAm17{
+  width: 45px;
+  height: auto;
+}
+
+.footer_Footer__LJh43 {
+  padding: 0 1rem;
+}
+
+}
+
+
+
+
 
