@@ -27,19 +27,24 @@
     min-height: 60vh;
     height: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .page_wrapAdocao__fvxcv{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: end;
-    gap: 5%;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .page_containerAdocao__5ZRst{
     color: aliceblue;
     display: flex;
+    justify-items: center;
     flex-direction: column;
     gap: 2rem;
     padding: 130px;
@@ -47,6 +52,7 @@
 
 .page_adocaoButton__hdGe6{
     width: 216px;
+    min-width: 100px;
     height: 50px;
     background-color: #c48cdd;
     color: aliceblue;
@@ -63,7 +69,7 @@
     background-color: #EE88BB;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
 
 .page_s1__0rN3c{
     min-height: 60vh;
@@ -76,7 +82,7 @@
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1145px) {
 
 .page_s1__0rN3c{
     min-height: 40vh;
@@ -138,9 +144,12 @@
     font-size: 10px;
 }
 
-
+.page_adocaoTitle__dES8m{
+    width: 300px;
+    justify-content: center;
+}
 .page_adocaoImg__aB3Bs{
-    width: 100px;
+    width: 120px;
     height: auto;
 }
 
@@ -213,11 +222,11 @@
   \***************************************************************************************************************************************************************************************************************************************************************************/
 .cards_cardsContainer__IcGRg {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 60px;
-  padding: 130px;
-
+  gap: 40px; 
+  padding: 40px;
+  margin-top: 100px;
 }
 
 .cards_cardsWrap__q17qK {
@@ -225,6 +234,8 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  width: 310px; 
+  min-width: 280px; 
 }
 
 .cards_cardsIcons__rF3A8 {
@@ -237,29 +248,25 @@
   align-items: center;
 }
 
-
 .cards_cardsIcons__rF3A8 img {
   width: 56px;
   height: 56px;
 }
 
-
 .cards_cardBox__eNz7e {
   background-color: #c9a0dc;
   border-radius: 12px;
-  padding: 48px 36px;
-  width: 280px;
-  min-height: 450px;
+  padding: 20px;
+  width: 100%;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .cards_cardText__ZTTeo {
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 23px;
   font-weight: 500;
   letter-spacing: 0.1em;
@@ -268,29 +275,51 @@
 }
 
 
-@media (max-width: 530px) {
-  .cards_cardBox__eNz7e {
-    width: 90%;
-    padding: 32px 24px;
-    min-height: 200px;  
-  }
 
-  .cards_cardsIcons__rF3A8 {
-    width: 80px;
-    height: 80px;
+@media (max-width: 1650px) {
+  .cards_cardBox__eNz7e{
+    height: 40%;
+    min-height: 300px;
   }
-
-  .cards_cardsIcons__rF3A8 img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .cards_cardText__ZTTeo {
-    font-size: 15px;
-    letter-spacing: 0.08em;
+  .cards_cardsWrap__q17qK {
+    width: 40%; 
+    min-width: 300px; 
   }
 }
 
+
+@media (max-width: 800px) {
+  .cards_cardsWrap__q17qK {
+    width: 40%;
+    min-width: 300px; 
+  }
+  .cards_cardsContainer__IcGRg {
+    gap: 30px; 
+    padding: 20px; 
+  }
+  .cards_cardText__ZTTeo {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .cards_cardBox__eNz7e{
+    height: 100%;
+    min-height: 300px;
+  }
+  .cards_cardsWrap__q17qK {
+    width: 47%; 
+    min-width: 160px; 
+  }
+  .cards_cardsContainer__IcGRg {
+    gap: 20px;
+    padding: 15px;
+  }
+  .cards_cardText__ZTTeo {
+    font-size: 18px;
+  }
+}
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/slider.module.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
@@ -335,13 +364,13 @@
 
 @media (max-width: 600px) {
 .slider_slider__8GAJ6 {
-  height: 40vh; 
+  height: 60vh; 
 }
 }
 
 @media (max-width: 460px) {
 .slider_slider__8GAJ6 {
-  height: 34vh; 
+  height: 45vh; 
 }
 }
 /*!****************************************************************************************************************************************************************************************************************************************************************************!*\
