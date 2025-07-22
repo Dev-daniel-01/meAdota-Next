@@ -1,0 +1,143 @@
+
+
+.container{
+     background-image: url(../assets/images/fundo-next.png);
+     background-size: cover;
+  background-position: center;
+}
+
+.s1{
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+.s2{
+    width: 100vw;
+    min-height: 80vh;
+    height: auto;
+}
+
+.s3{
+    width: 100vw;
+    min-height: 60vh;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.wrapAdocao{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5%;
+}
+
+.containerAdocao{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.adocaoButton{
+    width: 216px;
+    height: 50px;
+    background-color: #c48cdd;
+    color: aliceblue;
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
+    border: none;
+    font-size: 18px;
+}
+.adocaoButton:hover{
+    background-color: #EE88BB;
+}
+
+.adocaoButton:active{
+    background-color: #EE88BB;
+}
+
+@media (max-width: 1200px) {
+
+.s1{
+    min-height: 60vh;
+}
+
+.adocaoImg{
+    width: 300px;
+    height: auto;
+}
+
+}
+
+@media (max-width: 950px) {
+
+.s1{
+    min-height: 40vh;
+}
+.adocaoImg{
+    width: 250px;
+    height: auto;
+}
+
+.adocaoButton{
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+}
+
+
+}
+
+@media (max-width: 600px) {
+
+.s1{
+    min-height: 20vh;
+}
+.s3{
+    width: 100vw;
+    min-height: 50vh;
+
+}
+
+.adocaoP{
+    font-size: 1rem;
+}
+.adocaoTitle{
+    font-size: 1.5rem;
+}
+
+.adocaoImg{
+    width: 140px;
+    height: auto;
+}
+
+.adocaoButton{
+    width: 90px;
+    height: 40px;
+    font-size: 10px;
+}
+
+
+}
+
+@media (max-width: 460px) {
+
+.s1{
+    min-height: 10vh;
+}
+.adocaoButton{
+    width: 90px;
+    height: 40px;
+    font-size: 10px;
+}
+
+
+.adocaoImg{
+    width: 100px;
+    height: auto;
+}
+
+}
