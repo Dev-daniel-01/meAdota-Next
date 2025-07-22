@@ -77,6 +77,10 @@
     height: auto;
 }
 
+.page_adocaoButton__hdGe6{
+    font-size: 14px;
+
+}
 }
 
 @media (max-width: 870px) {
@@ -88,7 +92,7 @@
 .page_adocaoButton__hdGe6{
     width: 250px;
     height: 50px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
@@ -126,6 +130,29 @@
 
 }
 
+@media (max-width: 650px) {
+
+    .page_adocaoP__ZdNkd{
+        font-size: 1rem;
+    }
+    .page_adocaoTitle__dES8m{
+        font-size: 1.5rem;
+    }
+    
+    .page_adocaoImg__aB3Bs{
+        width: 190px;
+        height: auto;
+    }
+    
+    .page_adocaoButton__hdGe6{
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    
+    }
+    
 
 @media (max-width: 460px) {
 
