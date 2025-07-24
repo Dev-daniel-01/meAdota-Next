@@ -28,27 +28,28 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
 }
 .page_wrapAdocao__fvxcv{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     gap: 8%;
-    margin-bottom: 50px; 
+    flex-wrap: wrap;
+    margin-bottom: 0px; 
 }
 
 .page_containerAdocao__5ZRst{
     color: aliceblue;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1rem;
     padding: 0 2rem;
-    
+    padding-bottom: 20px;
 }
 
 .page_adocaoButton__hdGe6{
-    width: 256px;
+    width: 270px;
     height: 50px;
     background-color: #c48cdd;
     color: aliceblue;
@@ -57,6 +58,10 @@
     border: none;
     font-size: 20px;
     min-width: 80px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-self: center;
 }
 .page_adocaoButton__hdGe6:hover{
     background-color: #EE88BB;
@@ -78,25 +83,12 @@
 }
 
 .page_adocaoButton__hdGe6{
-    font-size: 14px;
+    font-size: 20px;
 
 }
 }
 
-@media (max-width: 870px) {
 
-.page_s1__0rN3c{
-    min-height: 40vh;
-}
-
-.page_adocaoButton__hdGe6{
-    width: 250px;
-    height: 50px;
-    font-size: 14px;
-}
-
-
-}
 
 @media (max-width: 800px) {
 
@@ -122,9 +114,9 @@
 }
 
 .page_adocaoButton__hdGe6{
-    width: 200px;
+    width: 230px;
     height: 40px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
@@ -138,19 +130,23 @@
     .page_adocaoTitle__dES8m{
         font-size: 1.5rem;
     }
-    
+    .page_containerAdocao__5ZRst{
+        margin-right: 5%;
+        margin-left: 3%;
+    }
     .page_adocaoImg__aB3Bs{
-        width: 190px;
+        width: 210px;
         height: auto;
     }
     
     .page_adocaoButton__hdGe6{
-        width: 200px;
+        width: 220px;
         height: 40px;
-        font-size: 12px;
+        font-size: 16px;
+
     }
     
-    
+
     }
     
 
@@ -160,19 +156,19 @@
     min-height: 10vh;
 }
 .page_adocaoButton__hdGe6{
-    width: 90px;
+    width: 150px;
     height: 40px;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .page_wrapAdocao__fvxcv{
-    gap: 5%;
+    gap: 40px;
+    height: 1;
 }
 .page_adocaoImg__aB3Bs{
     width: 120px;
-    height: auto;
 }
-
+    
 }
 
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -335,6 +331,7 @@
   .cards_cardsContainer__IcGRg {
     gap: 20px;
     padding: 15px;
+  
   }
   .cards_cardText__ZTTeo {
     font-size: 18px;
@@ -408,14 +405,14 @@
   align-items: center;
   padding: 0 1.5rem;
   color: aliceblue;
-
+  
 }
 
 .footer_footerSide__vfWmy {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem; /* ajusta o espaço entre os ícones */
+  gap: 0.8rem; 
 }
 
 .footer_footerLinkContainer__AkbYH {
