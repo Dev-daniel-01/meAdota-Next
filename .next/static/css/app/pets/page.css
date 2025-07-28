@@ -1,0 +1,274 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/pets/page.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__hNt6e {
+    background-image: url(/_next/static/media/fundo-next.e7ad91a5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.page_s1__F2GM0 {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
+.page_cardsFlex__8clDv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    padding-top: 7%;
+}
+
+.page_card__Wpt_K {
+    background-color: #EFEFEF;
+    width: 300px;
+    height: 330px;
+    margin-bottom: 5%;
+    border-radius: 16px;
+    border: 1px solid #BEBEBE;
+}
+
+.page_image__LVwnt {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page_cardContent__Vp5Vp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 2%;
+     line-height: 0.8;
+}
+
+.page_ownerName__58Lxe {
+    color: #C36C09;
+    font-weight: 500;
+}
+
+.page_petName__AEbdD {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.page_location__a0jzO {
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px){
+    
+.page_cardsFlex__8clDv {
+      padding-top: 12%;
+}
+}
+@media (max-width: 1000px){
+    
+.page_cardsFlex__8clDv {
+      padding-top: 15%;
+}
+}
+
+@media (max-width: 700px){
+    
+.page_cardsFlex__8clDv {
+      padding-top: 20%;
+}
+}
+
+@media (max-width: 650px){
+    .page_card__Wpt_K {
+    width: 200px;
+    height: 300px;
+    }
+}
+
+@media (max-width: 430px){
+    .page_card__Wpt_K {
+    width: 150px;
+    height: 240px;
+}
+    .page_image__LVwnt{
+        height: 150px;
+    }
+.page_cardContent__Vp5Vp {
+     line-height: 0.3;
+}
+
+.page_location__a0jzO {
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 700;
+}
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/menu2.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.menu2_navBar__UNcJB {
+  width: 100vw;
+  height: 70px;
+  background-color: #6C087C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.menu2_navSide__9uM_R {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu2_navLink__io1FN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.menu2_navLink__io1FN:hover {
+  opacity: 1;
+}
+
+
+.menu2_navCenter__s1HS9 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding-top: 1%;
+}
+
+.menu2_navCenter__s1HS9 p{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 520px) {
+.menu2_navBar__UNcJB {
+  padding: 0 0.5rem;
+}
+}
+
+@media (max-width: 400px) {
+.menu2_navBar__UNcJB {
+  padding: 0 0.2rem;
+}
+}
+
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/components/footer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.footer_Footer__LJh43 {
+  width: 100vw;
+  height: 65px;
+  background-color: #6C087C;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  color: aliceblue;
+  
+}
+
+.footer_footerSide__vfWmy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; 
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer_footerCenter__ZN_D_ {
+    padding-top: 1rem;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 30px;
+  height: auto;
+}
+
+
+
+@media (max-width: 520px) {
+
+.footer_footerCenter__ZN_D_ {
+  font-size: 1rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 25px;
+  height: auto;
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer_logoNav__MAm17{
+  width: 50px;
+  height: auto;
+}
+}
+
+@media (max-width: 400px) {
+
+.footer_footerCenter__ZN_D_ {
+  font-size: 0.8rem;
+}
+
+.footer_iconsFooter___26BV {
+  width: 20px;
+  height: auto;
+}
+
+.footer_footerLinkContainer__AkbYH {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer_logoNav__MAm17{
+  width: 45px;
+  height: auto;
+}
+
+.footer_Footer__LJh43 {
+  padding: 0 1rem;
+}
+
+}
+
+
+
+
+
